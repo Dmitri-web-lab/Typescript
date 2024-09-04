@@ -19,8 +19,11 @@ const arr3: [number[], string[]] = [
 const arr4: [number, number, boolean, string, undefined] = [
 1, 2, true, 'str', undefined
 ]
-
-const arr5: object = [
+type Students = {
+	id: number;
+	name: string;
+}
+const arr5: Students[] = [
 {
 id: 1,
 name: 'Студент',
